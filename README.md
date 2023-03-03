@@ -23,6 +23,6 @@ Go to the project directory
 **localhost:4200**
 
 ```bash
-  npm run start
+  npm start
 ```
 
