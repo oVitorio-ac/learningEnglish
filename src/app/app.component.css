@@ -1,0 +1,12 @@
+.container{
+    margin-top: 50px;
+    margin-left: 24%;
+}
+
+.derrota{
+    color: red;
+}
+
+.vitoria{
+    color: greenyellow;
+}

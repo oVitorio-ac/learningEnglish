@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'learningEnglish';
+
+  public jogoEmAndamento:boolean =true
+  public tipoEncenrramento: string | undefined;
+
+  public encerraJogo(tipo: string):void{
+    console.log(tipo) 
+    this.jogoEmAndamento= false
+    this.tipoEncenrramento = tipo
+  }
+
+  public reinicarJogo(): void{
+    this.jogoEmAndamento = true
+    this.tipoEncenrramento = undefined
+  }
 }
