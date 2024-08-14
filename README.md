@@ -28,6 +28,10 @@ This project is part of an Angular course and aims to create a word guessing gam
 
 The project features a clean and intuitive layout designed with Bootstrap, ensuring responsiveness and accessibility on various devices.
 
+<img src="layouts\start.png">
+<img src="layouts\progressbar.png">
+<img src="layouts\gameover.png">
+<img src="layouts\win.png">
 ---
 
 ## 🚀 How to run the project
